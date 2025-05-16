@@ -1,0 +1,15 @@
+items:
+- name: Microsoft
+  items:
+    - href: word.md
+    - href: powerpoint.md
+    - href: excel/excel.md
+      items:
+        - href: excel/excel_add_table.md
+        - href: excel/excel_remove_table.md
+- name: 3CX
+  items:
+    - href: 3cx.md
+- name: Security
+  items:
+    - href: security/safeonweb.md
