@@ -1,6 +1,6 @@
 # Powerpoint
 
-Word demo
+[Word demo]: <>
 
 ## Hoe Powerpoint installeren?
 

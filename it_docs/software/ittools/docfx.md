@@ -2,9 +2,9 @@
 
 ## Wat is Docfx?
 
-Docfx is een tool die gebruikt kan worden om documentatie om te vormen naar webpagina's. Hiervoor wordt intern vooral gebruik gemaakt van [Markdown (.md)](../it_docs/software/ittools/markdown.md) bestanden.
+Docfx is een tool die gebruikt kan worden om documentatie om te vormen naar webpagina's. Hiervoor wordt intern vooral gebruik gemaakt van [Markdown (.md)](../ittools/markdown.md) bestanden.
 
-## Installatie
+## Hoe installeren
 
 Om Docfx te installeren heb je het volgende nodig:
 
@@ -17,7 +17,14 @@ dotnet tool update -g docfx
 ```
 Eens dit commando is uitgevoerd zal Docfx geïnstalleerd zijn en kan je een project opstarten.
 
+## Gebruikers
+
+Iedereen die toegang heeft tot de [GitHub](../ittools/github.md) van Heder zal toegang hebben om aanpassingen te maken binnen Docfx.
+Voor een volledige lijst van gebruikers zie het artikel over [GitHub](../ittools/github.md).
+
+
 ## Gebruik
+
 
 ### Opzet project
 
