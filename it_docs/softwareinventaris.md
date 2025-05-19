@@ -53,6 +53,7 @@
 |TeamViewer|Remote||
 |Aanmeldingssoftware|Intekenen van bezoeker bij onthaal||
 |[Docfx](../it_docs/software/ittools/docfx.md)|Documentatieplatform|[dotnet.github.io/docfx/](https://dotnet.github.io/docfx/index.html)|
+|[GitHub](../it_docs/software/ittools/github.md)|Versiebeheer|[github.com](https://github.com)|
 
 ## Platformen
 
