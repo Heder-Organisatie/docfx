@@ -13,3 +13,9 @@ items:
 - name: Security
   items:
     - href: security/safeonweb.md
+- name: Dockfx
+  items:
+    - href: docfx.md
+- name: Softwareinventaris
+  items:
+    - href: softwareinventaris.md

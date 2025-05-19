@@ -37,9 +37,11 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "DocfxDemo",
-      "_appTitle": "DocfxDemo",
+      "_appName": "Heder Informatie Platform - HIP",
+      "_appTitle": "Heder Informatie Platform - HIP",
       "_enableSearch": true,
+      "_appFaviconPath":"images/favicon.ico",
+      "_disableContribution": true,
       "pdf": false
     }
   }
