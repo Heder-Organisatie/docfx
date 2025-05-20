@@ -40,7 +40,8 @@
       "_appName": "Heder Informatie Platform - HIP",
       "_appTitle": "Heder Informatie Platform - HIP",
       "_enableSearch": true,
-      "_appFaviconPath":"images/favicon.ico",
+      "_appFaviconPath": "images/favicon.ico",
+      "_appLogoPath": "images/HIP_Wit.png",
       "_disableContribution": true,
       "pdf": false
     }
