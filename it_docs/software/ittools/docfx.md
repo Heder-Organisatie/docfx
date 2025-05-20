@@ -40,6 +40,6 @@ Standaard kan je een preview van je site zien op [http://localhost:8080](http://
 
 ### Wijzigen van pagina's
 
-Standaard is er in een nieuw project een docs folder. In deze folder kunnen er markdown bestanden gezet worden die omgevormd worden in HTML pagina's, ook kan er een toc.yml bestand aangemaakt worden dat dienst als inhoudsopgave.
+Standaard is er in een nieuw project een docs folder. In deze folder kunnen er markdown bestanden gezet worden die omgevormd worden in HTML pagina's, ook kan er een toc.yml bestand aangemaakt worden dat dient als inhoudsopgave.
 
 Je kan ook nieuwe folders aanmaken in de mappenstructuur om zo op een meer georganiseerde manier te werken. In deze nieuwe mappen kan je zonder problemen nieuwe markdown of .yml bestanden zetten.
