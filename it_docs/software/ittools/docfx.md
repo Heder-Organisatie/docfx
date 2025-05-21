@@ -30,11 +30,11 @@ Voor een volledige lijst van gebruikers zie het artikel over [GitHub](../ittools
 
 Om een nieuw project op te starten gebruik je het volgende commando:
 ```
-dockfx init
+docfx init
 ```
 Na de vragen beantwoord te hebben zal een template project opgezet worden waar je in kan werken. Om de webpagina te genereren kan je het volgende commando gebruiken. 
 ```
-dockfx docfx.json --serve
+docfx docfx.json --serve
 ```
 Standaard kan je een preview van je site zien op [http://localhost:8080](http://localhost:8080).
 
