@@ -8,6 +8,8 @@ Deze labels zijn terugtevinden op de apperatuur van gebruikers zodat we hen snel
 
 Bij het starten van P-touch editor selecteren we eerst "Openen". Hier ga je naar de locatie van je labels en open je het label dat je wilt gebruiken. In het geval van IT gaat dit over het label "Heder ICT Label"
 
+
+["CAMPUS" - "AFDELING" - "TOESTEL" worden later gehyperlinked naar de lijsten van afkortingen]: <>
 Pas het label aan naar het ID van het toestel dat gelabeld word. ID's worden opgemaakt in het formaat "CAMPUS"-"AFDELING"-"TOESTEL""NUMMER"
 Voorbeeld toestel: Op "Roozemaai" voor "ICT" is een nieuwe "Laptop" met volgnummer "01". Dit label word dan: "RZM-ICT-LT01".
 
