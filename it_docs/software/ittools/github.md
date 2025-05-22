@@ -27,3 +27,36 @@ Elke ICT-medewerker zal een eigen GitHub-account hebben, buiten deze accounts za
 |Username|Wachtwoord|
 |---|---|
 |github.hadmin@heder.be|zie 1Password|
+
+## Hoe gebruik je GitHub
+
+### Een repository aanmaken
+
+Om een nieuwe repository aan te maken ga je naar de organisatie op GitHub.com ([https://github.com/Heder-Organisatie](https://github.com/Heder-Organisatie)) en klik je op de knop "New". Hier kan je dan de naam van je repository/project opgeven, een optionele beschrijving, de privacy settings en een licentie kiezen. 
+De repository zal altijd op "Private" gezet worden, dit zorgt ervoor dat enkel mensen binnen de organisatie de repository kunnen bekijken/bewerken.
+Met de licentie moet geen rekening gehouden worden, alles wat op GitHub staat zal enkel binnen Heder gebruikt worden.
+
+Eens je op de knop "Create repository" klikt zal er een nieuwe lege repository aangemaakt worden.
+
+### Een repository clonen
+
+Om de repository van GitHub op je lokale machine te zetten doe je het volgende:
+
+1. Open GitHub Desktop
+2. Klik bovenaan op "File"
+3. Druk op "Clone repository..." (de shortcut "Ctrl+Shift+O" werkt ook)
+4. Onder "Heder-Organisatie" vind je een lijst van alle repositories die gekoppeld zijn aan de organisatie. Klik hier op de repository die je wilt kopieren.
+5. Selecteer bij "Local path" de locatie op de computer waar je de repository wilt opslaan.
+6. Druk op "Clone"
+
+Er staat nu een versie van de repository op je lokale computer, in deze aangemaakt folder kan je nu werken en je wijzigingen op GitHub zetten.
+
+### Wijzigingen opslaan
+
+[Voeg hier nog iets toe over aanpassingen opslaan]: <>
+Eens je klaar bent om je wijzigingen naar GitHub te sturen doe je jet volgende:
+
+1. Controleer of je de veranderingen ziet op GitHub Desktop, indien dit niet het geval is, moet je mogelijks het bestand nog eens opslaan.
+2. Links onderaan het venster van GitHub Desktop geef je een beschrijvende titel aan je commit, je kan ook een optionele beschrijving meegeven.
+3. Klik onderaan op de knop "Commit *number of changed files* file(s) to *branch name*"
+### Branching
