@@ -56,3 +56,9 @@ Bezoek de [website](https://atwork.safeonweb.be/nl) [https://atwork.safeonweb.be
     <img src="../../images/security/safeonweb2.png">
 </a>
 </div>
+
+
+<details>
+    <summary>test title</summary>
+    <p>aaaaaaaaaaaaaaaaaa</p>
+</details>

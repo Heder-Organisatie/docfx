@@ -27,14 +27,15 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "styles/**"
         ]
       }
     ],
     "output": "_site",
     "template": [
       "default",
-      "modern"
+      "_exported_templates/modern"
     ],
     "globalMetadata": {
       "_appName": "Heder Informatie Platform - HIP",

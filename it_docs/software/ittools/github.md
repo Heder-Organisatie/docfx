@@ -59,4 +59,25 @@ Eens je klaar bent om je wijzigingen naar GitHub te sturen doe je jet volgende:
 1. Controleer of je de veranderingen ziet op GitHub Desktop, indien dit niet het geval is, moet je mogelijks het bestand nog eens opslaan.
 2. Links onderaan het venster van GitHub Desktop geef je een beschrijvende titel aan je commit, je kan ook een optionele beschrijving meegeven.
 3. Klik onderaan op de knop "Commit *number of changed files* file(s) to *branch name*"
+4. Druk op de knop "Push Origin".
+
 ### Branching
+
+De kans is groot dat meerdere mensen aan dezelfde repository werken, zeker als het een groot project is. Om te voorkomen dat iedereen dezelfde versie aanpast en mogelijks dingen kapot maakt of iemands aanpassingen ongedaan maakt, kan men werken met branches. Een branch in git is een aftakking van de huidige versie, aanpassingen kunnen hierop gemaakt worden zonder de "hoofdversie (vaak de "main" genoemd) te beïnvloeden.
+
+Om een nieuwe branch aan te maken op GitHub Desktop doe je het volgende:
+
+1. Zorg dat je de huidige versie gefetched hebt.
+2. Klik op de knop "Current branch", standaard staat hier de branch "main" aangeduid.
+3. Druk op de "New branch knop".
+4. Geef de naam van je branch en selecteer op welke branch het gebaseerd is.
+5. Druk op "Push origin" om de nieuwe branch naar GitHub te pushen.
+
+### Definities
+
+|Term|Beschrijving|
+|---|---|
+|Commit|Een aanpassing in een repository|
+|Push|Een of meerdere commits naar GitHub sturen|
+|Fetch|Aanpassingen die op GitHub staan (mogelijks door andere mensen) ophalen|
+|Branch|Een aftakking van een repository|
