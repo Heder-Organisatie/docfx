@@ -11,7 +11,7 @@ Ontdek hoe je eenvoudig GPX-bestanden kunt uploaden en downloaden naar je Mio GP
             <p>
                 Deze methode wordt aanbevolen door MIO zelf maar is momenteel enkel bruikbaar voor de meest recente toestellen van de CycloTM Discover Series. </p>
                 <ol>
-                    <li>Ga naar <a href="https://www.mioshare.com">www.mioshare.com</a></li>
+                    <li>Ga naar <a href="https://www.mioshare.com"> www.mioshare.com</a></li>
                     <li>Meld je aan of schrijf je in</li>
                     <li>Klik op de oranje knop rechtsboven en selecteer Account</li>
                     <li>Ga naar de Synchronisatie-instellingen</li>
