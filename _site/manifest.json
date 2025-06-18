@@ -1,0 +1,374 @@
+{
+  "source_base_path": "C:/Users/ignouren/Desktop/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Ipsum.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Ipsum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/Lorem.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Lorem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "hr_docs/hr_newhire.md",
+      "output": {
+        ".html": {
+          "relative_path": "hr_docs/hr_newhire.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "hr_docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "hr_docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "hr_docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HIP_Wit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HIP_Wit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HIP_Wit.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/HIP_Wit.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hederlogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/hederlogo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/rufus.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/rufus.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/security/safeonweb1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/security/safeonweb1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/security/safeonweb2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/security/safeonweb2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/3cx.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/3cx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/demo/cssdemo.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/demo/cssdemo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "it_docs/demo/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/demo/toc.html"
+        },
+        ".json": {
+          "relative_path": "it_docs/demo/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/excel/excel.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/excel/excel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/excel/excel_add_table.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/excel/excel_add_table.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/excel/excel_remove_table.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/excel/excel_remove_table.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/powerpoint.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/powerpoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/security/cybersecurity-nis2.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/security/cybersecurity-nis2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/security/safeonweb.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/security/safeonweb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/security/security.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/security/security.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "it_docs/security/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/security/toc.html"
+        },
+        ".json": {
+          "relative_path": "it_docs/security/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/docfx.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/docfx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/github.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/github.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/markdown.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/markdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/mooiedemo.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/mooiedemo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/ptouch.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/ptouch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/rufus.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/rufus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/software/ittools/testit.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/software/ittools/testit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/softwareinventaris.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/softwareinventaris.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "it_docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "it_docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "it_docs/word.md",
+      "output": {
+        ".html": {
+          "relative_path": "it_docs/word.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
