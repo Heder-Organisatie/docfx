@@ -45,6 +45,15 @@
       "_appLogoPath": "images/HIP_Wit.png",
       "_disableContribution": true,
       "pdf": false
-    }
+    },
+   
+    "markdownEngineProperties": {
+  "markdigExtensions": [
+    "attributes",
+    "tasklists",
+    "emphasisextras",
+    "pipetables"
+  ]
+}
   }
 }

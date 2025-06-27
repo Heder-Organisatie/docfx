@@ -85,15 +85,76 @@
         </div>
 
         <article data-uid="">
-<h1 id="wat-houdt-de-cybersecurity-wetgeving-in-voor-zorginstellingen">Wat houdt de cybersecurity-wetgeving in voor zorginstellingen?</h1>
 
+<form id="searchForm">
+  <p>Wat?</p>
+  <label>
+    <input type="radio" name="mainChoice" value="waarom"> Waarom
+  </label><br>
+  <label>
+    <input type="radio" name="mainChoice" value="wie"> Wie
+  </label><br>
+  <div id="followUp" style="margin-top: 10px; display: none;">
+    <p>Waarom?</p>
+    <label>
+      <input type="radio" name="followUpChoice" value="waarom1"> Waarom 1
+    </label><br>
+    <label>
+      <input type="radio" name="followUpChoice" value="waarom2"> Waarom 2
+    </label><br>
+  </div>
+<p><button type="submit" style="margin-top: 10px;">Submit</button></p>
+</form>
+<script>
+document.getElementById('searchForm').addEventListener('change', function () {
+  const mainChoice = document.querySelector('input[name="mainChoice"]:checked');
+  const followUpDiv = document.getElementById('followUp');
+
+  // Show follow-up only if "waarom" is selected
+  if (mainChoice && mainChoice.value === 'waarom') {
+    followUpDiv.style.display = 'block';
+  } else {
+    followUpDiv.style.display = 'none';
+  }
+});
+
+document.getElementById('searchForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const mainChoice = document.querySelector('input[name="mainChoice"]:checked')?.value;
+  const followUpChoice = document.querySelector('input[name="followUpChoice"]:checked')?.value;
+
+  if (mainChoice === 'waarom') {
+    if(followUpChoice === "waarom1"){
+        const target = document.getElementById('waarom');
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }
+    else if (followUpChoice ==="waarom2"){
+        const target = document.getElementById('wie');
+        if(target) target.scrollIntoView({behaviour:'smooth'});
+    }
+  }
+
+  if (mainChoice === 'wie') {
+    const target = document.getElementById('wie');
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // You can add more follow-up actions here as needed
+});
+</script>
+<h1 id="wat-houdt-de-cybersecurity-wetgeving-in-voor-zorginstellingen">Wat houdt de cybersecurity-wetgeving in voor zorginstellingen?</h1>
 <p>De cybersecurity-wetgeving (NIS2-richtlijn - Network and Information Security 2) is een Europese wet die vanaf oktober 2024 ook geldt in België. Deze wet is bedoeld om de digitale weerbaarheid van belangrijke sectoren te verbeteren. Voor grotere zorginstellingen zoals Heder betekent dit dat zij aan strengere regels moeten voldoen om hun digitale systemen en gegevens te beschermen.</p>
 <p>De Belgische overheid heeft in dit kader <a href="https://ccb.belgium.be/nl">het Cybersecurity Center Belgium (CCB) https://ccb.belgium.be/nl</a> opgericht die instaat voor de definitie, sensibilisatie, opleiding en opvolging van de Cybersecurity bij particulieren en bedrijven in België.</p>
+<div id="waarom">
 <h2 id="waarom-is-nis2-nodig">Waarom is NIS2 nodig?</h2>
 <p>Zorginstellingen zijn steeds afhankelijker geworden van digitale systemen voor het opslaan van patiëntgegevens, communicatie tussen afdelingen, medicatiebeheer en nog veel meer. Tegelijkertijd zijn zij steeds vaker doelwit van cyberaanvallen. Denk aan hackers die systemen platleggen of gevoelige patiëntgegevens stelen. De gevolgen hiervan kunnen ernstig zijn: uitval van zorg, gevaar voor patiënten en verlies van vertrouwen. NIS2 moet dit risico beperken door betere beveiliging verplicht te stellen.</p>
+</div>
+<div id="wie">
 <h2 id="wie-valt-onder-nis2">Wie valt onder NIS2?</h2>
 <p>NIS2 geldt voor zogeheten &quot;essentiële&quot; en &quot;belangrijke&quot; organisaties in sectoren zoals energie, transport, drinkwater, digitale infrastructuur én de gezondheidszorg. Grote zorginstellingen met meer dan 250 FTE vallen automatisch onder deze regels, omdat ze als essentieel voor de samenleving worden gezien.</p>
-<h2 id="wat-moet-een-zorginstelling-doen">Wat moet een zorginstelling doen?</h2>
+</div>
+<h2 id="wat">Wat moet een zorginstelling doen?</h2>
 <p>Zorginstellingen moeten voldoen aan verschillende verplichtingen:</p>
 <ol>
 <li><p><strong>Risicobeheer en beveiliging:</strong> Instellingen moeten risico’s in kaart brengen en passende maatregelen nemen. Denk aan firewalls, antivirussoftware, toegangsbeheer, back-ups, en training van medewerkers en beheerders.</p>
