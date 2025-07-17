@@ -12,23 +12,50 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "hr_docs/hr_newhire.md",
+      "source_relative_path": "docs/verzekeringen/client.md",
       "output": {
         ".html": {
-          "relative_path": "hr_docs/hr_newhire.html"
+          "relative_path": "docs/verzekeringen/client.html"
         }
       },
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "hr_docs/toc.yml",
+      "type": "Conceptual",
+      "source_relative_path": "docs/verzekeringen/dienstvoertuig.md",
       "output": {
         ".html": {
-          "relative_path": "hr_docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "hr_docs/toc.json"
+          "relative_path": "docs/verzekeringen/dienstvoertuig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/verzekeringen/medewerker.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/verzekeringen/medewerker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/verzekeringen/verzekeringen.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/verzekeringen/verzekeringen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/verzekeringen/werkmateriaal.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/verzekeringen/werkmateriaal.html"
         }
       },
       "version": ""
@@ -99,6 +126,16 @@
       "output": {
         "resource": {
           "relative_path": "images/security/safeonweb2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/verzekeringen/VerzekeringBeslissingsBoom150.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/verzekeringen/VerzekeringBeslissingsBoom150.png"
         }
       },
       "version": ""
