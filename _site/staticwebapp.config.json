@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/docs/*",
-      "allowedRoles": ["40964ec4-3c85-49c1-af7d-d29efb74f3b2"]
+      "allowedRoles": ["IT"]
     }
   ],
   "responseOverrides": {
